@@ -40,7 +40,7 @@ pipeline {
         always {
             echo 'Envoi de la notification Slack...'
             // Envoi du message via ton Webhook Slack
-            sh "curl -X POST -H 'Content-type: application/json' --data '{\"text\":\"🚀 Projet DevOps EMSI : Le Build Jenkins est terminé avec succès ! Félicitations Aya !\"}' https://hooks.slack.com/services/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"
+            sh "curl -X POST -H 'Content-type: application/json' --data '{\"text\":\"🚀 Projet DevOps EMSI : Le Build Jenkins est terminé avec succès ! Félicitations Aya !\"}'https://hooks.slack.com/services/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"
         }
     }
 }
